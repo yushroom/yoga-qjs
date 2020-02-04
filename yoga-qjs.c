@@ -1,4 +1,4 @@
-#include "yoga-js.h"
+#include "yoga-qjs.h"
 #include <yoga/Yoga.h>
 #include <quickjs.h>
 #include <cutils.h>
@@ -575,27 +575,27 @@ static const JSCFunctionListEntry js_yoga_funcs[] = {
 	YOGA_FLAG(LogLevelFatal),
 	
 	YOGA_FLAG(MeasureModeUndefined),
-    YOGA_FLAG(MeasureModeExactly),
-    YOGA_FLAG(MeasureModeAtMost),
+	YOGA_FLAG(MeasureModeExactly),
+	YOGA_FLAG(MeasureModeAtMost),
 	
 	YOGA_FLAG(NodeTypeDefault),
 	YOGA_FLAG(NodeTypeText),
 	
 	YOGA_FLAG(OverflowVisible),
-    YOGA_FLAG(OverflowHidden),
-    YOGA_FLAG(OverflowScroll),
+	YOGA_FLAG(OverflowHidden),
+	YOGA_FLAG(OverflowScroll),
 	
 	YOGA_FLAG(PositionTypeRelative),
 	YOGA_FLAG(PositionTypeAbsolute),
 	
 	YOGA_FLAG(PrintOptionsLayout),
-    YOGA_FLAG(PrintOptionsStyle),
-    YOGA_FLAG(PrintOptionsChildren),
+	YOGA_FLAG(PrintOptionsStyle),
+	YOGA_FLAG(PrintOptionsChildren),
 	
 	YOGA_FLAG(UnitUndefined),
-    YOGA_FLAG(UnitPoint),
-    YOGA_FLAG(UnitPercent),
-    YOGA_FLAG(UnitAuto),
+	YOGA_FLAG(UnitPoint),
+	YOGA_FLAG(UnitPercent),
+	YOGA_FLAG(UnitAuto),
 	
 	YOGA_FLAG(WrapNoWrap),
 	YOGA_FLAG(WrapWrap),
